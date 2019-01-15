@@ -8,6 +8,11 @@ def print_header():
 def main():
     print_header()
     name = input("What is your name my friend? ")
+    print(
+        "Hello",
+        name,
+        "Please bear with me as I build up this app to make it more useful! -The Developer",
+    )
 
 
 if __name__ == "__main__":
