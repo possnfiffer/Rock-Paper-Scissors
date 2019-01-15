@@ -5,9 +5,18 @@ def print_header():
     print()
 
 
+def get_players_name():
+    name = input("What is your name my friend? ")
+
+
+class Player:
+    def __init__(self, name):
+        self.name = name
+
+
 def main():
     print_header()
-    name = input("What is your name my friend? ")
+    name = get_players_name()
     print(
         "Hello",
         name,
